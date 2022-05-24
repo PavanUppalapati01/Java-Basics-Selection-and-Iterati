@@ -1,0 +1,38 @@
+1...
+   if((x>=0&&x<=25)||(x>=75&&x<=100))
+    {
+      System.out.println(x+" is between 0  and 25 or 75 and 100");
+    }
+ ...
+ 2...
+ if(x%5==0)
+   {
+     System.out.println(x+" is divisible by 5");
+
+   }
+   else{
+     System.out.println(x+" is not divisible by 5");
+   }
+
+...
+3...
+ if((x%5==0)&&(x%2==0))
+   {
+     System.out.println(x+" is divisible by 5 and even");
+   }
+   else{
+     System.out.println(x+" is not divisible by 5 or it is odd");
+   }
+ ...
+ 4...
+ if( x.equals("yellow") || x.equals("red") || x.equals("blue") )
+    {System.out.println(x + " is a primary color");}
+else
+    {System.out.println(x + " is not a primary color");}
+    ...
+5...
+if( x.equals("a") || x.equals("e") || x.equals("i") || x.equals("o") || x.equals("u") )
+    {System.out.println(x + " is a vowel");}
+else
+    {System.out.println(x + " is not a vowel");}
+...
