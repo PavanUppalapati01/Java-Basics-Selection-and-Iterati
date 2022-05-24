@@ -1,0 +1,39 @@
+1....
+public class Exercise1 {
+  public static void main(String args[]) {
+    
+    //fix the code below this line
+    
+    int a = 4;
+    int b = 9;
+    
+    //fix the code above this line
+          
+    System.out.println(a * 3 + b - 8 / 2);
+    
+
+  }
+}
+....
+2....
+System.out.println((5==4));
+...
+4...
+String x="Hello ";
+    String y="world";
+    System.out.println((x+y)); 
+ ...
+ 5...
+ public class Exercise4 {
+  public static void main(String args[]) {
+    
+    //write code below this line
+    
+    float x=7,y=2;
+    System.out.println(x/y);
+    
+    //write code above this line
+
+  }
+}
+...
