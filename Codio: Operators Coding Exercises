@@ -18,12 +18,12 @@ public class Exercise1 {
 2....
 System.out.println((5==4));
 ...
-4...
+3...
 String x="Hello ";
     String y="world";
     System.out.println((x+y)); 
  ...
- 5...
+ 4...
  public class Exercise4 {
   public static void main(String args[]) {
     
@@ -33,6 +33,28 @@ String x="Hello ";
     System.out.println(x/y);
     
     //write code above this line
+
+  }
+}
+...
+5...
+import java.util.Scanner;
+
+public class Exercise5 {
+  public static void main(String args[]) {
+    
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Type the first whole number and press Enter:");
+    int firstNum = sc.nextInt();
+    System.out.print("Type the second whole number and press Enter:");
+    int secondNum = sc.nextInt();
+    
+    //fix code below this line
+    
+    int sum = firstNum + secondNum;
+    System.out.println( firstNum + " + " + secondNum + " = " + sum);
+    
+    //fix code above this line
 
   }
 }
